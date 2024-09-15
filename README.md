@@ -21,3 +21,12 @@
   -  availability
   -  reliability
   -  scaling
+
+
+# Misc
+- hash table
+  - hash function
+  - collision
+    - chaining: linked list
+    - linear probing: next empty slot
+  - resizing
