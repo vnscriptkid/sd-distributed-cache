@@ -1,0 +1,12 @@
+### SET with expiration of 1 day
+POST http://localhost:8080/cache
+Content-Type: application/json
+
+{
+    "key": "key1",
+    "value": "value1",
+    "expiration": 86400000000000
+}
+
+### GET
+GET http://localhost:8080/cache/key1
