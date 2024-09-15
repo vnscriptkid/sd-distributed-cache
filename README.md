@@ -5,6 +5,9 @@
   - cache full (how do we know)
   - eviction: when to use which policies
   - communication
+    - HTTP
+    - raw TCP
+    - GRPC 
   - concurrency: when to use which
     - pesstimistic: how to not lock the whole map
     - optimistic
